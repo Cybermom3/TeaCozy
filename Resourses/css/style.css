@@ -5,12 +5,13 @@ body {
   font-family:Helvetica;
   display: block;
   margin: 0;
-  text-align:center;
+  text-align:flex-start;
 
 .box  {
   display:flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap:wrap;
+  color: seashell;
 }
 
 header img {
@@ -27,12 +28,13 @@ header {
   height: 69px;
   background-color: black;
   border-bottom: 1px solid seashell;
-  align-items: center;
+  align-content: flex-start;
   z-index:1;
+  opacity: 0.9;
 
 }
-a{
-  color:seashell;
+a {
+  color: seashell;
   text-decoration: underline;
 }
 nav {

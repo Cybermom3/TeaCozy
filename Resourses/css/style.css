@@ -142,7 +142,7 @@ p {
 }
 
 .location {
-  opacity: 1.0;
+  opacity: 0.9;
   padding: 10px;
   margin: 5px 20px;
   background-color: black;

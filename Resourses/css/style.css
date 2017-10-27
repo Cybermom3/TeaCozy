@@ -127,9 +127,11 @@ p {
 }
 
 .item img {
+  display: block;
   height: 200px;
   margin: 10px;
-  display: block;
+
+  width:300 px;
 }
 
 .item span {
@@ -147,7 +149,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-basis:320px;
+  flex-basis:0px;
 }
 
 footer {
